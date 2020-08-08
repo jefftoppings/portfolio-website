@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { SectionDividerComponent } from './section-divider/section-divider.component';
 import { ProjectsComponent } from './projects/projects.component';
 import {MatCardModule} from '@angular/material/card';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {MatCardModule} from '@angular/material/card';
     HeaderComponent,
     PhotoJobTitleComponent,
     SectionDividerComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
