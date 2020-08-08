@@ -17,58 +17,62 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background: $dark-theme-background;
+  color: white;
 }
 
-.row {
+.flex-container {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
 }
 
-.col-xs-1 {
+.col-1 {
   width: 8.333%;
 }
 
-.col-xs-2 {
+.col-2 {
   width: 16.667%;
 }
 
-.col-xs-3 {
+.col-3 {
   width: 25%;
 }
 
-.col-xs-4 {
+.col-4 {
   width: 33.333%;
 }
 
-.col-xs-5 {
+.col-5 {
   width: 41.667%;
 }
 
-.col-xs-6 {
+.col-6 {
   width: 50%;
 }
 
-.col-xs-7 {
+.col-7 {
   width: 58.333%;
 }
 
-.col-xs-8 {
+.col-8 {
   width: 66.667%;
 }
 
-.col-xs-9 {
+.col-9 {
   width: 75%;
 }
 
-.col-xs-10 {
+.col-10 {
   width: 83.333%;
 }
 
-.col-xs-11 {
+.col-11 {
   width: 91.667%;
 }
 
-.col-xs-12 {
+.col-12 {
   width: 100%;
+}
+
+a, a:visited {
+  color: #0d47a1;
 }

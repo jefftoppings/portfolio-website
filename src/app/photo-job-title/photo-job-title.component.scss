@@ -1,0 +1,22 @@
+.photo-title-container {
+  .picture-div {
+    border-radius: 50%;
+    background-image: url("../../assets/jeff.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .job-title {
+    margin: 40px 0 10px;
+    font-size: 20px;
+    justify-content: center;
+  }
+  .links-container {
+    justify-content: center;
+    a {
+      padding: 0 10px;
+    }
+  }
+}
